@@ -1,0 +1,58 @@
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "Noto Sans", sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    background-color: #163a24;
+    color: #FBFAF7;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header__wrapper{
+    display: flex;
+    justify-content: space-between;
+padding: 20px 0 20px 0;
+}
+.header__buttons{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.btn{
+    background-color: #198C36;
+    padding: 15px 25px;
+    border-radius: 160px;
+}
+.first-section{
+    background-color: #163a24;
+    height: 88.6vh;
+    background-image: url(../image/men.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right
+}
+.first-sectiion__text-block{
+    color: #FBFAF7;
+    max-width: 475px;
+    padding-top: 120px;
+}
+.section__title{
+    font-size: 48px;
+    font-weight: bold;
+}
+.section__sub-title{
+    font-size: 18px;
+}
+.second__section{
+    padding-top: 120px;
+}
